@@ -22,8 +22,19 @@
             <ng-content select="[code]"></ng-content>
         </app-code-snippet>
     </div>
-
     <div class="controls">
-        <ng-content select="[controls]"></ng-content>
+        <ng-container *ngTemplateOutlet="controls"></ng-container>
     </div>
+
+    <ng-template #controls>
+        <ng-content select="[controls]"></ng-content>
+    </ng-template>
+
+    <ng-template #mobileControls>
+        <ng-container *ngTemplateOutlet="controls"></ng-container>
+    </ng-template>
+
+    <sebng-tooltip class="mobile-tooltip" [content]="mobileControls" trigger="click" theme="light">
+        <button class="btn btn-primary mobile-float-button">Try</button>
+    </sebng-tooltip>
 </div>
