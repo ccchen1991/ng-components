@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{RVpA:function(n,r,d){"use strict";d.r(r),r.default=".card {\n  padding: 1rem 2rem;\n  border-radius: 16px;\n  overflow: hidden;\n  margin-bottom: 1rem;\n}"}}]);

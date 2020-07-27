@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[76],{o0nc:function(n,o,r){"use strict";r.r(o),o.default=".card {\n  border-radius: 16px;\n  overflow: hidden;\n  margin-bottom: 1rem;\n}\n.card table {\n  margin: 0;\n}"}}]);
